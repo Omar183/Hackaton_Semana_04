@@ -1,0 +1,385 @@
+/*Agregando tipo de Letra*/
+@font-face{
+    font-family:IndieFuenteCustom;
+    src: url(/fonts/IndieFlower-Regular.ttf);
+}
+
+/*-----------------Header-----------------*/
+.header{
+    position: relative;
+    width: 960px;
+    height: 525px;
+    background: url(/img/face.png);
+    background-repeat: no-repeat;    
+    margin:0 auto;
+}
+
+.header__titulo{
+    position: relative;
+    width: 320px;
+    height: 70px;
+    left: 350px;
+    top: 0px;
+
+    font:normal 90px  IndieFuenteCustom,Helvetica;
+    /*font-size: 64px;*/
+    font-weight: bold;
+    color: #ffffff;
+}
+.header__titulo:hover{
+        transform: scale(1.15);
+        transition: all 1s linear;
+        text-shadow: 0px 2px 1px #333333, 0px 5px 5px red;  
+}
+
+.header__nombre{
+    position: absolute;
+    width: 365px;
+    height:120px;
+    left:52px;
+    top: 270px;
+    background: rgba(114, 153, 254, 0.5);
+    border-radius: 10px;
+
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;   
+    color: #ffffff;
+}
+
+.header__nombre:hover{
+        transform: scale(1.15);
+        transition: all 1s linear;   
+}
+
+
+/*-----------------Sobre mi-----------------*/
+
+.sobre-mi{ 
+    position: relative;
+    width: 960px;
+    height: 420px;
+    margin:0 auto;
+    background: #7299FE;
+    
+}
+
+.sobre-mi__titulo{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 405px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: #ffffff;
+}
+
+.sobre-mi__titulo:hover{
+        transform: scale(1.15);
+        transition: all 2s linear;   
+}
+
+.sobre-mi__contenido{
+    position: absolute;
+    margin: 100px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 24px;
+    color: #F8F8F8;    
+}
+
+.sobre-mi__button{
+    position: absolute;
+    margin: 285px 40px;
+    width: 190px;
+    height: 60px;
+    background-color: #D16FFF;
+    border-radius: 20px;
+
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 3;
+    text-align: center;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.8);
+    color: white;
+}
+.sobre-mi__button:hover{
+        transform: scale(1.15);
+        transition: all 1s linear;      
+}
+
+/*--------------Mis skills------------------*/
+
+.skills{
+    position: relative; 
+    margin: 0 auto;
+    background: #9122DD;
+    width: 960px;
+    height: 425px; 
+   
+}
+
+.skills__titulo{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 405px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.skills__titulo:hover{
+        transform: scale(1.15);
+        transition: all 2s linear;   
+}
+
+.skills__uno{
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 65px;
+}
+
+.skills__dos{
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 500px;
+}
+
+.skills__items{
+    margin-bottom: 15px;
+    margin-left: 30px;    
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #ffffff;
+    text-shadow: 0px 2px 1px black, 0px 0px 10px red;
+}
+.skills__items:hover{
+    transform: scale(1.15);
+    transition: all 1s linear;   
+    animation: progress 2s linear infinite
+}
+.skills__container{
+    position: relative;
+    width: 400px;
+    height: 20px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.skills__container:hover{
+        transform: scale(1.15);
+        transition: all 1s linear;   
+        animation: progress 2s linear infinite;
+}
+.skills__barra{
+    position: absolute;
+    left:-60%;
+    top: 0;
+    background: #57EFF9;
+    display: block;  
+    width: 100%;
+    height:20px;
+    border-radius: 20px;
+}
+
+/*--------------Portafolio------------------*/
+
+.portafolio{
+    position: relative;
+    width: 960px;
+    height: 424px;
+    margin: auto;
+    background: #FFD233; 
+}
+
+.portafolio__titulo{
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 399px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: #ffffff;
+}
+.portafolio__titulo:hover{
+    transform: scale(1.15);
+    transition: all 2s linear;
+}
+.portafolio__galeria{
+    position: absolute;
+    width: 700px;
+    height: 198px;
+    margin-top: 130px;
+    margin-left: 183px; 
+}
+
+.portafolio__imagen{
+    margin-right: 11px;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+.portafolio__galeria:hover{
+    transform: scale(1.15);
+    transition: all 2s linear;
+}
+
+/*--------------Clientes------------------*/
+
+.clientes{
+    position: relative;
+    width: 960px;
+    height: 258px;
+    background: #3F4E62;
+    margin: auto;
+}
+
+.clientes__titulo{
+    position: absolute;
+    right: 405px; 
+    top: 15px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px; 
+    color: #ffffff;
+}
+
+.clientes__titulo:hover{
+    transform: scale(1.15);
+    transition: all 2s linear;
+}
+
+.clientes__galeria{
+    position: absolute;
+    width: 900px;
+    height: 69px;
+    top: 91px;
+    left: 70px; 
+}
+
+.clientes__imagen{
+    margin-right: 26px;
+    cursor: pointer;
+}
+.clientes__imagen:hover{
+    transform: scale(1.15);
+    transition: all 2s linear;
+}
+/*--------------CONTACTO------------------*/
+
+.contacto{
+    position: relative;
+    width: 960px;
+    height: 600px;
+    margin: auto;
+    background: #1687a0;
+}
+
+.contacto__titulo{
+    position: absolute;
+    right: 397px; 
+    top: 15px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: #ffffff;
+}
+.contacto__titulo:hover{
+    transform: scale(1.15);
+    transition: all 2s linear;
+}
+
+.contacto__box{  
+    position: absolute;
+    width: 900px;
+    height: 400px;
+    top: 102px;
+    left: 100px;
+    ;
+}
+
+.contacto__control{    
+    width: 363px;
+    height: 59px;
+    margin-right: 33px;
+    margin-bottom: 33px;
+}
+.contacto__descripcion{ 
+    width: 759px;
+    height: 112px;
+    top: 33px;
+    margin-bottom: 45px;
+}
+.contacto__botons{     
+    display: block;
+    width: 167px;  
+    height: 56px; 
+    margin-left: 300px;
+    
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;  
+    color: #FFFFFF;
+    background: #233451;
+}
+
+input:required{
+    border:3px solid red; 
+}
+input:valid{
+    border: 3px solid rgb(47, 255, 82);
+}
+
+input:invalid
+    {
+    color:red;
+   }
+
+/*Definiendo la descripcion*/
+textarea:required{
+    border:3px solid red; 
+}
+textarea:valid{
+    border: 3px solid rgb(47, 255, 82);
+}
+textarea:focus{
+    background: #e3f595;
+}
+/*Definiendo estilo del boton Enviar*/
+
+.botons{
+    position: absolute;
+    width: 167px;
+    height: 56px;
+    left: 310px;
+    bottom:0px;
+    border-radius: 20px; 
+    cursor: pointer;
+    background: #233451;
+    color: #FFFFFF;
+    font-size: 22px;
+}

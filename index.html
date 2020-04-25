@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>Hackaton 04</title>  
+</head>
+<body>
+<!------------------------Header---------------------->   
+    <header class="header">
+        
+        <h2 class="header__titulo">Pachaqtec</h2>
+        
+        <div class="header__nombre">
+            <p>Hola, mi nombre<br> es Omar Sotelo</p>
+        </div>
+    </header>
+<!---------------------Sobre mi---------------------->
+    <section class="sobre-mi">
+        <h2 class="sobre-mi__titulo">Sobre mi</h2>
+        <article>
+            <p class="sobre-mi__contenido">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis diam commodo, arcu gravida erat quam donec convallis.
+                Gravida arcu, suspendisse semper mauris tristique tortor. Eu, malesuada elit feugiat laoreet malesuada vitae. zz enim habitasse malesuada lacus, euismod pharetra habitasse. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis diam commodo, arcu gravida erat quam donec convallis. Gravida arcu, suspendisse semper mauris tristique tortor. 
+                Eu, malesuada elit feugiat laoreet malesuada vitae. zz enim habitasse malesuada lacus, euismod pharetra habitasse. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Quis diam commodo, arcu gravida erat quam donec convallis. Gravida arcu, suspendisse semper mauris tristique tortor. Eu, malesuada elit feugiat laoreet malesuada vitae.
+                zz enim habitasse malesuada lacus, euismod pharetra habitasse.</p>   
+        </article> 
+        <a href="#" class="sobre-mi__button">Ver CV</a>         
+    </section>
+    <!---------------------Mis skills---------------------->
+    <section class="skills">
+        
+        <h2 class="skills__titulo">Mis Skills</h2> 
+
+        <div class="skills__uno">
+                         
+            <h3 class="skills__items">HTML</h3>
+            <div class="skills__container">
+                <div class="skills__barra"></div>
+            </div>
+
+            <h3 class="skills__items">Javascript</h3>
+            <div class="skills__container">
+                <div class="skills__barra"></div>  
+            </div>                  
+            
+            <h3 class="skills__items">Flexbox</h3>
+            <div class="skills__container">
+                <div class="skills__barra"></div>
+            </div>                    
+                               
+        </div>
+
+        <div class="skills__dos">
+                         
+            <h3 class="skills__items">Css</h3>
+            <div class="skills__container">
+                <div class="skills__barra"></div>
+            </div>
+
+            <h3 class="skills__items">Vue</h3>
+            <div class="skills__container">
+                <div class="skills__barra"></div>  
+            </div>                  
+            
+            <h3 class="skills__items">CSS Grid</h3>
+            <div class="skills__container">
+                <div class="skills__barra"></div>
+            </div>                                                 
+        </div>
+    </section>     
+
+<!---------------------Portafolio---------------------->
+    <section class="portafolio">
+        <h2 class="portafolio__titulo">Portafolio</h2>
+        <div class="portafolio__galeria">
+            <img class="portafolio__imagen" src="/img/image01.png" alt="">
+            <img class="portafolio__imagen" src="/img/image02.png" alt="">
+            <img class="portafolio__imagen" src="/img/image03.png" alt="">
+            <img class="portafolio__imagen" src="/img/image04.png" alt="">
+            <img class="portafolio__imagen" src="/img/image05.png" alt="">
+            <img class="portafolio__imagen" src="/img/image06.png" alt="">
+            <img class="portafolio__imagen" src="/img/image07.png" alt="">
+            <img class="portafolio__imagen" src="/img/image08.png" alt="">
+        </div>
+    </section>
+<!-------------------Clientes----------------------->
+    <section class="clientes">
+        <h2 class="clientes__titulo">Clientes</h2>
+        <div class="clientes__galeria">
+            <img class="clientes__imagen" src="/img/image09.png" alt="">
+            <img class="clientes__imagen" src="/img/image10.png" alt="">
+            <img class="clientes__imagen" src="/img/image11.png" alt="">
+            <img class="clientes__imagen" src="/img/image12.png" alt="">
+        </div>
+    </section>
+<!--------------------Contacto-------------------->
+    <section class="contacto">
+        <form name="formulario" action="#" method="GET">
+            <h2 class="contacto__titulo">Contacto</h2>
+            <div class="contacto__box" contacto__>
+                <input class="contacto__control" 
+                type="text" 
+                name="firstname" 
+                placeholder=" Nombre" 
+                pattern="[A-Za-z]+" 
+                required>
+
+                <input class="contacto__control" 
+                type="text" 
+                name="lastname"  
+                placeholder=" Apellido paterno" 
+                pattern="[A-Za-z]+"
+                required>
+
+                <input class="contacto__control"
+                type="email"
+                name="email"
+                placeholder=" E-mail"
+                required>
+
+                <input class="contacto__control" 
+                type="text"
+                name="telephone"
+                pattern="[0-9]{9}"
+                placeholder=" Número de celular"
+                required>
+
+                <textarea class="contacto__descripcion"
+                type="text"
+                name="Description"
+                placeholder="Descripción"
+                required>
+                </textarea>
+
+                <input class="botons" 
+                type="submit" 
+                name="button">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
